@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0549A59B2C3187090009B2A8 /* ShorelineWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A59A2C3187090009B2A8 /* ShorelineWatchApp.swift */; };
+		0549A59D2C3187090009B2A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A59C2C3187090009B2A8 /* ContentView.swift */; };
+		0549A59F2C31870A0009B2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0549A59E2C31870A0009B2A8 /* Assets.xcassets */; };
+		0549A5A22C31870A0009B2A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0549A5A12C31870A0009B2A8 /* Preview Assets.xcassets */; };
+		0549A5AC2C31870A0009B2A8 /* ShorelineWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5AB2C31870A0009B2A8 /* ShorelineWatchTests.swift */; };
+		0549A5B62C31870A0009B2A8 /* ShorelineWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5B52C31870A0009B2A8 /* ShorelineWatchUITests.swift */; };
+		0549A5B82C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0549A5A82C31870A0009B2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0549A58F2C3187080009B2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0549A5962C3187090009B2A8;
+			remoteInfo = ShorelineWatch;
+		};
+		0549A5B22C31870A0009B2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0549A58F2C3187080009B2A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0549A5962C3187090009B2A8;
+			remoteInfo = ShorelineWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0549A5972C3187090009B2A8 /* ShorelineWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShorelineWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0549A59A2C3187090009B2A8 /* ShorelineWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchApp.swift; sourceTree = "<group>"; };
+		0549A59C2C3187090009B2A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0549A59E2C31870A0009B2A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0549A5A12C31870A0009B2A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0549A5A72C31870A0009B2A8 /* ShorelineWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShorelineWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0549A5AB2C31870A0009B2A8 /* ShorelineWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchTests.swift; sourceTree = "<group>"; };
+		0549A5B12C31870A0009B2A8 /* ShorelineWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShorelineWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0549A5B52C31870A0009B2A8 /* ShorelineWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchUITests.swift; sourceTree = "<group>"; };
+		0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0549A5942C3187090009B2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0549A5A42C31870A0009B2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0549A5AE2C31870A0009B2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0549A58E2C3187080009B2A8 = {
+			isa = PBXGroup;
+			children = (
+				0549A5992C3187090009B2A8 /* ShorelineWatch */,
+				0549A5AA2C31870A0009B2A8 /* ShorelineWatchTests */,
+				0549A5B42C31870A0009B2A8 /* ShorelineWatchUITests */,
+				0549A5982C3187090009B2A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0549A5982C3187090009B2A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0549A5972C3187090009B2A8 /* ShorelineWatch.app */,
+				0549A5A72C31870A0009B2A8 /* ShorelineWatchTests.xctest */,
+				0549A5B12C31870A0009B2A8 /* ShorelineWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0549A5992C3187090009B2A8 /* ShorelineWatch */ = {
+			isa = PBXGroup;
+			children = (
+				0549A59A2C3187090009B2A8 /* ShorelineWatchApp.swift */,
+				0549A59C2C3187090009B2A8 /* ContentView.swift */,
+				0549A59E2C31870A0009B2A8 /* Assets.xcassets */,
+				0549A5A02C31870A0009B2A8 /* Preview Content */,
+			);
+			path = ShorelineWatch;
+			sourceTree = "<group>";
+		};
+		0549A5A02C31870A0009B2A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0549A5A12C31870A0009B2A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0549A5AA2C31870A0009B2A8 /* ShorelineWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0549A5AB2C31870A0009B2A8 /* ShorelineWatchTests.swift */,
+			);
+			path = ShorelineWatchTests;
+			sourceTree = "<group>";
+		};
+		0549A5B42C31870A0009B2A8 /* ShorelineWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0549A5B52C31870A0009B2A8 /* ShorelineWatchUITests.swift */,
+				0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */,
+			);
+			path = ShorelineWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0549A5962C3187090009B2A8 /* ShorelineWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0549A5BB2C31870A0009B2A8 /* Build configuration list for PBXNativeTarget "ShorelineWatch" */;
+			buildPhases = (
+				0549A5932C3187090009B2A8 /* Sources */,
+				0549A5942C3187090009B2A8 /* Frameworks */,
+				0549A5952C3187090009B2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShorelineWatch;
+			productName = ShorelineWatch;
+			productReference = 0549A5972C3187090009B2A8 /* ShorelineWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0549A5A62C31870A0009B2A8 /* ShorelineWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0549A5BE2C31870A0009B2A8 /* Build configuration list for PBXNativeTarget "ShorelineWatchTests" */;
+			buildPhases = (
+				0549A5A32C31870A0009B2A8 /* Sources */,
+				0549A5A42C31870A0009B2A8 /* Frameworks */,
+				0549A5A52C31870A0009B2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0549A5A92C31870A0009B2A8 /* PBXTargetDependency */,
+			);
+			name = ShorelineWatchTests;
+			productName = ShorelineWatchTests;
+			productReference = 0549A5A72C31870A0009B2A8 /* ShorelineWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0549A5B02C31870A0009B2A8 /* ShorelineWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0549A5C12C31870A0009B2A8 /* Build configuration list for PBXNativeTarget "ShorelineWatchUITests" */;
+			buildPhases = (
+				0549A5AD2C31870A0009B2A8 /* Sources */,
+				0549A5AE2C31870A0009B2A8 /* Frameworks */,
+				0549A5AF2C31870A0009B2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0549A5B32C31870A0009B2A8 /* PBXTargetDependency */,
+			);
+			name = ShorelineWatchUITests;
+			productName = ShorelineWatchUITests;
+			productReference = 0549A5B12C31870A0009B2A8 /* ShorelineWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0549A58F2C3187080009B2A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0549A5962C3187090009B2A8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0549A5A62C31870A0009B2A8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0549A5962C3187090009B2A8;
+					};
+					0549A5B02C31870A0009B2A8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0549A5962C3187090009B2A8;
+					};
+				};
+			};
+			buildConfigurationList = 0549A5922C3187080009B2A8 /* Build configuration list for PBXProject "ShorelineWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0549A58E2C3187080009B2A8;
+			productRefGroup = 0549A5982C3187090009B2A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0549A5962C3187090009B2A8 /* ShorelineWatch */,
+				0549A5A62C31870A0009B2A8 /* ShorelineWatchTests */,
+				0549A5B02C31870A0009B2A8 /* ShorelineWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0549A5952C3187090009B2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0549A5A22C31870A0009B2A8 /* Preview Assets.xcassets in Resources */,
+				0549A59F2C31870A0009B2A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0549A5A52C31870A0009B2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0549A5AF2C31870A0009B2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0549A5932C3187090009B2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0549A59D2C3187090009B2A8 /* ContentView.swift in Sources */,
+				0549A59B2C3187090009B2A8 /* ShorelineWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0549A5A32C31870A0009B2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0549A5AC2C31870A0009B2A8 /* ShorelineWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0549A5AD2C31870A0009B2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0549A5B82C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift in Sources */,
+				0549A5B62C31870A0009B2A8 /* ShorelineWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0549A5A92C31870A0009B2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0549A5962C3187090009B2A8 /* ShorelineWatch */;
+			targetProxy = 0549A5A82C31870A0009B2A8 /* PBXContainerItemProxy */;
+		};
+		0549A5B32C31870A0009B2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0549A5962C3187090009B2A8 /* ShorelineWatch */;
+			targetProxy = 0549A5B22C31870A0009B2A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0549A5B92C31870A0009B2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0549A5BA2C31870A0009B2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0549A5BC2C31870A0009B2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShorelineWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TUZ5Z655L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShorelineWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0549A5BD2C31870A0009B2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShorelineWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TUZ5Z655L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShorelineWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0549A5BF2C31870A0009B2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TUZ5Z655L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShorelineWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShorelineWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShorelineWatch";
+			};
+			name = Debug;
+		};
+		0549A5C02C31870A0009B2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TUZ5Z655L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShorelineWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShorelineWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShorelineWatch";
+			};
+			name = Release;
+		};
+		0549A5C22C31870A0009B2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TUZ5Z655L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShorelineWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShorelineWatch;
+			};
+			name = Debug;
+		};
+		0549A5C32C31870A0009B2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TUZ5Z655L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShorelineWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShorelineWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0549A5922C3187080009B2A8 /* Build configuration list for PBXProject "ShorelineWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0549A5B92C31870A0009B2A8 /* Debug */,
+				0549A5BA2C31870A0009B2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0549A5BB2C31870A0009B2A8 /* Build configuration list for PBXNativeTarget "ShorelineWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0549A5BC2C31870A0009B2A8 /* Debug */,
+				0549A5BD2C31870A0009B2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0549A5BE2C31870A0009B2A8 /* Build configuration list for PBXNativeTarget "ShorelineWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0549A5BF2C31870A0009B2A8 /* Debug */,
+				0549A5C02C31870A0009B2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0549A5C12C31870A0009B2A8 /* Build configuration list for PBXNativeTarget "ShorelineWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0549A5C22C31870A0009B2A8 /* Debug */,
+				0549A5C32C31870A0009B2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0549A58F2C3187080009B2A8 /* Project object */;
+}
