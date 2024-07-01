@@ -14,6 +14,7 @@
 		0549A5AC2C31870A0009B2A8 /* ShorelineWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5AB2C31870A0009B2A8 /* ShorelineWatchTests.swift */; };
 		0549A5B62C31870A0009B2A8 /* ShorelineWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5B52C31870A0009B2A8 /* ShorelineWatchUITests.swift */; };
 		0549A5B82C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */; };
+		0549A5C62C3332DC0009B2A8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5C52C3332DC0009B2A8 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0549A5B12C31870A0009B2A8 /* ShorelineWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShorelineWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0549A5B52C31870A0009B2A8 /* ShorelineWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchUITests.swift; sourceTree = "<group>"; };
 		0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0549A5C52C3332DC0009B2A8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0549A5992C3187090009B2A8 /* ShorelineWatch */ = {
 			isa = PBXGroup;
 			children = (
+				0549A5C42C3187770009B2A8 /* Managers */,
 				0549A59A2C3187090009B2A8 /* ShorelineWatchApp.swift */,
 				0549A59C2C3187090009B2A8 /* ContentView.swift */,
 				0549A59E2C31870A0009B2A8 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */,
 			);
 			path = ShorelineWatchUITests;
+			sourceTree = "<group>";
+		};
+		0549A5C42C3187770009B2A8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0549A5C52C3332DC0009B2A8 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				0549A59D2C3187090009B2A8 /* ContentView.swift in Sources */,
 				0549A59B2C3187090009B2A8 /* ShorelineWatchApp.swift in Sources */,
+				0549A5C62C3332DC0009B2A8 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +442,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
