@@ -21,7 +21,7 @@ class LocationManager: NSObject,ObservableObject,CLLocationManagerDelegate{
     }
     
     func requestLocation(){
-        isLoading = false
+        isLoading = true
         manager.requestLocation()
     }
     

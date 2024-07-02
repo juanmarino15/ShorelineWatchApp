@@ -15,6 +15,9 @@
 		0549A5B62C31870A0009B2A8 /* ShorelineWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5B52C31870A0009B2A8 /* ShorelineWatchUITests.swift */; };
 		0549A5B82C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */; };
 		0549A5C62C3332DC0009B2A8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5C52C3332DC0009B2A8 /* LocationManager.swift */; };
+		0549A5C92C3340CB0009B2A8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5C82C3340CB0009B2A8 /* WelcomeView.swift */; };
+		0549A5CB2C3425840009B2A8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5CA2C3425840009B2A8 /* LoadingView.swift */; };
+		0549A5CD2C342E2C0009B2A8 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0549A5CC2C342E2C0009B2A8 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		0549A5B52C31870A0009B2A8 /* ShorelineWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchUITests.swift; sourceTree = "<group>"; };
 		0549A5B72C31870A0009B2A8 /* ShorelineWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorelineWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0549A5C52C3332DC0009B2A8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0549A5C82C3340CB0009B2A8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0549A5CA2C3425840009B2A8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0549A5CC2C342E2C0009B2A8 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +102,9 @@
 		0549A5992C3187090009B2A8 /* ShorelineWatch */ = {
 			isa = PBXGroup;
 			children = (
+				0549A5C72C3340100009B2A8 /* Views */,
 				0549A5C42C3187770009B2A8 /* Managers */,
 				0549A59A2C3187090009B2A8 /* ShorelineWatchApp.swift */,
-				0549A59C2C3187090009B2A8 /* ContentView.swift */,
 				0549A59E2C31870A0009B2A8 /* Assets.xcassets */,
 				0549A5A02C31870A0009B2A8 /* Preview Content */,
 			);
@@ -134,8 +140,19 @@
 			isa = PBXGroup;
 			children = (
 				0549A5C52C3332DC0009B2A8 /* LocationManager.swift */,
+				0549A5CC2C342E2C0009B2A8 /* WeatherManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		0549A5C72C3340100009B2A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0549A59C2C3187090009B2A8 /* ContentView.swift */,
+				0549A5C82C3340CB0009B2A8 /* WelcomeView.swift */,
+				0549A5CA2C3425840009B2A8 /* LoadingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0549A5CD2C342E2C0009B2A8 /* WeatherManager.swift in Sources */,
 				0549A59D2C3187090009B2A8 /* ContentView.swift in Sources */,
 				0549A59B2C3187090009B2A8 /* ShorelineWatchApp.swift in Sources */,
 				0549A5C62C3332DC0009B2A8 /* LocationManager.swift in Sources */,
+				0549A5CB2C3425840009B2A8 /* LoadingView.swift in Sources */,
+				0549A5C92C3340CB0009B2A8 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
